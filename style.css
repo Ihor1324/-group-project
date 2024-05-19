@@ -1,4 +1,99 @@
-body{
-  margin: 0;
+html{
+  background-image: url(https://uaserials.pro/bg/bg.jpg);
   
+}
+
+body{
+  background-color: rgb(51, 51, 51);
+  color: black;
+  margin: 100px;
+  border-radius: 20px 20px 0 0;
+  
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #283043;
+  border-radius: 20px 20px 0 0;
+  height: 20px;
+}
+
+.logo{
+  color: black;
+  width: 100px;
+}
+
+.menunav_top{
+  display: flex;
+  padding: 20px 40px ;
+  background-color: #484855;
+  color: rgb(245, 226, 226);
+  flex-direction: row;
+  height: 20px;
+  margin-top: 0;
+}
+
+.last{
+  padding-left: 50%;
+}
+
+.sect{
+  color: black;
+  flex-direction: row;
+  
+}
+
+.main-title{
+  color: rgb(59, 71, 104);
+  flex-direction: row;
+  padding-left: 50px;
+}
+
+.sect-content{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  padding: 50px;
+  border-radius: 50px;
+  
+}
+
+.short-cols{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-direction: column;
+  
+}
+
+.lazyload{
+  width: 150px;
+  border-radius: 30px;
+  margin-top: -50PX;
+}
+
+.th-title {
+  color: #686868;
+  font-size: 15px;
+
+}
+
+.th-title-oname {
+  color: #8f95a3;
+    font-size: 12px;
+    text-align: center;
+}
+
+.short-label{
+  color: rgb(255, 255, 255);
+  border:rgb(251, 255, 0)
 }
