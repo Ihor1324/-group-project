@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styleDetails.css" />
+  </head>
+  <body>
+    <div id="film-details">
+      <h1>Loading.....</h1>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const params = new URLSearchParams(window.location.search);
+        const filmId = params.get('id');
+        const filmDetailsContainer = document.getElementById('film-details');
+        const filmData = {
+          shameless: {
+            title: 'Безсоромні',
+            description:
+              'Дія розвивається в одному з найбідніших районів Чикаго навколо неблагополучної родини Галлагерів. Глава сімейства Френк Галлагер — хронічний алкоголік і дрібний шахрай, який безперервно проводить дні в спробах роздобути легкі гроші на випивку.',
+            image: 'https://uaserials.pro/posters/7065.jpg',
+            year: '2011',
+            producer: 'Ієн Б. МакДональд, Марк Майлод, Крістофер Чулак',
+
+          },
+          my_name: {
+            title: "Моє ім'я",
+            description:
+              'Коли сімнадцятирічна Юн Чжі У стає свідком убивства свого батька-гангстера, вона вирішує помститися. У поліції немає жодних зачіпок, тому вона звертається до найкращого друга батька, Чхве Му-джина, голови найбільшого корейського наркокартеля Дончхон.',
+            image: 'https://uaserials.pro/posters/8671.jpg',
+            year: '2021 (завершений)',
+            producer: 'Кім Джин-мін',
+            
+          },
+        };
+        console.log('Film ID:', filmId);
+        console.log('Film Data:', filmData[filmId]);
+        if (filmId && filmData[filmId]) {
+          const film = filmData[filmId];
+          filmDetailsContainer.innerHTML = `
+          <div class="container">
+          <h1>${film.title}</h1>
+          <img src ="${film.image}" alt="${film.title}"/>
+          <p>${film.description}</p>
+          <p>Продюсери: ${film.producer}</p>
+          <p>Рік: ${film.year}</p>
+          </div>
+          `;
+        } else {
+          filmDetailsContainer.innerHTML = `<h1>Фільм не знайдено</h1>`;
+        }
+      });
+    </script>
+  </body>
+</html>
