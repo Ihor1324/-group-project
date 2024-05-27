@@ -1,13 +1,13 @@
-html{
+html {
   background-image: url(https://uaserials.pro/bg/bg.jpg);
   text-decoration: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-body{
+body {
   background-color: rgb(51, 51, 51);
   color: black;
   margin: 100px;
@@ -15,7 +15,7 @@ body{
   text-decoration: none;
 }
 
-.header{
+.header {
   display: flex;
   align-items: center;
   padding: 20px 40px;
@@ -25,56 +25,52 @@ body{
   display: flex;
   flex-wrap: 50px;
   padding: 15px 50px;
-
 }
 
-.logo{
+.logo {
   color: black;
   width: 100px;
 }
 
-.login{
+.login {
   width: 900px;
 }
 
-.login{
+.login {
   padding-left: 300px;
 }
 
-.menu{
+.menu {
   display: flex;
-  padding: 20px 40px ;
+  padding: 20px 40px;
   background-color: #484855;
   color: rgb(245, 226, 226);
   height: 20px;
   margin-top: 0;
-  
 }
 
-.points{
+.points {
   display: flex;
   flex-wrap: 50px;
   padding: 0px 10px;
-
 }
 
-.last{
+.last {
   padding-left: 50%;
 }
 
-.cards{
+.cards {
   color: black;
   flex-direction: row;
-  
 }
 
-.section{
+.section {
   color: rgb(59, 71, 104);
   flex-direction: row;
   padding-left: 50px;
 }
 
-.cards-content{
+.cards-content {
   display: flex;
   width: 90%;
   justify-content: space-between;
@@ -83,10 +79,9 @@ body{
   flex-wrap: nowrap;
   padding: 50px;
   border-radius: 50px;
-  
 }
 
-.cell{
+.cell {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -95,20 +90,19 @@ body{
   flex-wrap: wrap;
   flex-direction: row;
   flex-direction: column;
-  
+  width: 100px;
 }
 
-.lazyload{
+.lazyload {
   width: 150px;
   border-radius: 30px;
-  margin-top: -50PX;
+  margin-top: -50px;
 }
 
 .name1 {
   color: #686868;
   font-size: 15px;
   width: 150px;
-
 }
 
 .name2 {
@@ -117,7 +111,7 @@ body{
   width: 150px;
 }
 
-.footer{
+.footer {
   height: 50px;
   background-color: #4d4b4b;
   display: flex;
@@ -125,10 +119,10 @@ body{
   padding: 10px 15px 0px;
 }
 
-.footer1{
+.footer1 {
   color: white;
 }
 
-.footer2{
+.footer2 {
   color: yellow;
 }
