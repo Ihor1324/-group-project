@@ -1,5 +1,16 @@
 .container {
   width: 80%;
   margin: 0 auto;
-  background-color: bisque;
+  color: white;
+}
+
+image {
+  border-radius: 50%; /* Заокруглює зображення до форми кола */
+  width: 150px; /* Задає ширину зображення */
+  height: 150px; /* Задає висоту зображення */
+  object-fit: cover; /* Гарантує, що зображення заповнює квадрат і не спотворюється */
+}
+.main_card {
+  display: flex;
+  gap: 20px;
 }
