@@ -5,7 +5,7 @@
 }
 
 image {
-  border-radius: 50%; /* Заокруглює зображення до форми кола */
+   
   width: 150px; /* Задає ширину зображення */
   height: 150px; /* Задає висоту зображення */
   object-fit: cover; /* Гарантує, що зображення заповнює квадрат і не спотворюється */
@@ -13,4 +13,13 @@ image {
 .main_card {
   display: flex;
   gap: 20px;
+  border-radius: 10px 20px 15px 25px;
+}
+.desc {
+  font-size: 22px;
+  margin-top: 15px;
+}
+.video{
+  border-radius: 10px 20px 15px 25px;
+  margin-bottom: 50px;
 }
