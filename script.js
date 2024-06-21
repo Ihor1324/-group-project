@@ -15,33 +15,39 @@ const fruits = [
   {
     title: "kiwi",
     imageUrl:
-      "https://images.unsplash.com/photo-1560155016-bd4879ae8f21?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTY2MDV8&ixlib=rb-4.0.3&q=85",
+      "https://uaserials.pro//8656.jpg",
   },
   {
     title: "banana",
     imageUrl:
-      "https://images.unsplash.com/photo-1528825871115-3581a5387919?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTY2MDV8&ixlib=rb-4.0.3&q=85",
+      "https://uaserials.pro/posters/8662.jpg",
   },
   {
     title: "ananas",
     imageUrl:
-      "https://images.unsplash.com/photo-1587883012610-e3df17d41270?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTY3MTl8&ixlib=rb-4.0.3&q=85",
+      "https://uaserials.pro/posters/8666.jpg",
   },
   {
     title: "avocado",
     imageUrl:
-      "https://images.unsplash.com/photo-1590005024862-6b67679a29fb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTY3NDN8&ixlib=rb-4.0.3&q=85",
+      "https://uaserials.pro/posters/8663.jpg",
   },
   {
     title: "orange",
     imageUrl:
-      "https://images.unsplash.com/photo-1592187270271-9a4b84faa228?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTc5NTZ8&ixlib=rb-4.0.3&q=85",
+      "https://uaserials.pro/posters/8665.jpg",
   },
   {
     title: "strawberry",
     imageUrl:
-      "https://images.unsplash.com/photo-1587393855524-087f83d95bc9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTgxNTl8&ixlib=rb-4.0.3&q=85",
+      "https://uaserials.pro/posters/8664.jpg",
   },
+  {
+    title: "strawberry",
+    imageUrl:
+      "https://uaserials.pro/posters/7118.jpg",
+  },
+
 ];
 
 fruits.map((fruit) => {

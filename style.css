@@ -229,7 +229,7 @@ input#story{
   display: flex;
   justify-content: center;
   gap: 20px;
-  max-width: 400px;
+  max-width: 800px;
   padding: 2rem;
   animation: scroll 20s infinite linear;
 }
@@ -249,17 +249,14 @@ input#story{
 
 @keyframes scroll {
   0% {
-    transform: translate(calc(100% - 0.5rem));
+    transform: translate(calc(100% - 0.2rem));
   }
 
   50% {
-    transform: translate(calc(-100% - 0.5rem));
+    transform: translate(calc(-100% - 0.2rem));
   }
 
   100% {
-    transform: translate(calc(100% - 0.5rem));
+    transform: translate(calc(100% - 0.2rem));
   }
 }
-
-
-
