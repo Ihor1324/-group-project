@@ -29,18 +29,45 @@ body {
   padding: 15px 50px;
 }
 
-.logo {
+.logo1 {
+  width: 40px;
+}
+.logo2 {
   color: black;
   width: 100px;
 }
 
-.login {
-  width: 900px;
+.story {
+  width: 800px;
+  padding-left: 50px;
+}
+
+.story2 {
+  width: 19px;
+  padding-right: 0%;
+  padding-top: 1px;
 }
 
 .login {
-  padding-left: 300px;
+  border: 1px solid rgba(36, 27, 160, 0.911);
+  color: #ffffff;
+  background-color: rgba(36, 27, 160, 0.911);
+  width: 120px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
 }
+
+.login:hover{
+  border: 1px solid rgba(36, 27, 160, 0.705);
+  color: #ffffff;
+  background-color: rgba(36, 27, 160, 0.705);
+  width: 120px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
 
 .menu {
   display: flex;
@@ -57,8 +84,20 @@ body {
   padding: 0px 10px;
 }
 
+.points:hover{
+  display: flex;
+  flex-wrap: 50px;
+  padding: 0px 10px;
+  color: rgb(255, 238, 0);
+}
+
 .last {
   padding-left: 50%;
+}
+
+.last:hover{
+  padding-left: 50%;
+  color: rgb(255, 238, 0);
 }
 
 .cards {
@@ -68,6 +107,12 @@ body {
 
 .section {
   color: rgb(59, 71, 104);
+  flex-direction: row;
+  padding-left: 50px;
+}
+
+.section:hover{
+  color: rgb(255, 238, 0);
   flex-direction: row;
   padding-left: 50px;
 }
@@ -93,12 +138,16 @@ body {
   flex-direction: row;
   flex-direction: column;
   width: 100px;
+  justify-content: start;
 }
 
 .lazyload {
   width: 150px;
   border-radius: 30px;
   margin-top: -50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 
 .name1 {
@@ -128,3 +177,6 @@ body {
 .footer2 {
   color: yellow;
 }
+
+
+
